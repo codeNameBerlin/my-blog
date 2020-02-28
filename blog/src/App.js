@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage';
-import ArticlesListPage from './components/ArticlesListPage';
-import ArticlePage from './components/ArticlePage';
-import NavBar from './components/NavBar';
-import NotFoundPage from './components/NotFoundPage';
+import HomePage from './containers/HomePage';
+import AboutPage from './containers/AboutPage';
+import ArticlesListPage from './containers/ArticlesListPage';
+import ArticlePage from './containers/ArticlePage';
+import NavBar from './containers/NavBar';
+import NotFoundPage from './containers/NotFoundPage';
 import {
   BrowserRouter as Router,
   Route, 
